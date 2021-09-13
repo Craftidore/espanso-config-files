@@ -1,0 +1,81 @@
+# espanso configuration file
+
+# This is the default configuration file, change it as you like it
+# You can refer to the official documentation:
+# https://espanso.org/docs/
+
+# Matches are the substitution rules, when you type the "trigger" string
+# it gets replaced by the "replace" string.
+backspace_limit: 15
+matches:
+  # Simple text replacement
+  - trigger: ":espanso"
+    replace: "Hi there!"
+  - trigger: "espansopath"
+    replace: "C:\\Users\\ellio\\AppData\\Roaming\\espanso\\"
+  - trigger: "espansopackages"
+    replace: "C:\\Users\\ellio\\AppData\\Local\\espanso\\packages"
+
+
+ # Dates
+  - trigger: ":date"
+    force_clipboard: true
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%y%m%d"
+  - trigger: ":longdate"
+    force_clipboard: true
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%m/%d/%Y"
+  - trigger: ":now"
+    force_clipboard: true
+    replace: "{{mytime}}"
+    vars:
+      - name: mytime
+        type: date
+        params:
+          format: "%H:%M"
+ # Code
+  - trigger: ":div"
+    force_clipboard: true
+    replace: "<div>$|$</div>"
+  - trigger: ":href"
+    force_clipboard: true
+    replace: "<a href='{{clipboard}}'>$|$</a>"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+  - triggers: [":link", ":[]", ":mdlink"]
+    force_clipboard: true
+    replace: "[$|$]({{clipboard}})"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+  - triggers: [":mdimage", ":![]", ":image"]
+    force_clipboard: true
+    replace: "![]({{clipboard}})"
+    vars:
+      - name: "clipboard"
+        type: clipboard
+ 
+ # Craftidore's things
+
+  - trigger: ":quote"
+    force_clipboard: true
+    form: |
+      > "$|$"
+      > => {{name}}
+      > 
+    form_fields:
+      text:
+        multiline: true
+  - trigger: "hehim"
+    force_clipboard: true
+    replace: "(he/him)"

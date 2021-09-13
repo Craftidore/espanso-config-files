@@ -1,0 +1,24 @@
+name: time_agency
+parent: default
+
+matches:
+  - trigger: ":uy"
+    replace: "uniyear"
+  - trigger: ":Uy"
+    replace: "UniYear"
+  - trigger: ":ud"
+    replace: "uniday"
+  - trigger: ":Ud"
+    replace: "UniDay"
+  - trigger: ":uh"
+    replace: "unihour"
+  - trigger: ":Uh" 
+    replace: "UniHour"
+  - trigger: ":um"
+    replace: "uniminute"
+  - trigger: ":Um"
+    replace: "UniMinute"
+  - trigger: ":us"
+    replace: "unisecond"
+  - trigger: ":Us"
+    replace: "UniSecond"

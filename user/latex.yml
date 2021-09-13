@@ -1,0 +1,8 @@
+name: latex
+parent: default
+
+matches: 
+  - trigger: "]frac"
+    replace: "\\frac{$|$}{}"
+  - trigger: "]align"
+    replace: "\\begin{align}\n$|$\n\\end{align}"

@@ -1,0 +1,45 @@
+name: genesys
+parent: default
+# Images from RPG Sessions
+# Genesys Symbols have a white background so that you can see them in dark themed Obsidian.
+matches:
+  - trigger: "inlineimage"
+    force_clipboard: true
+    replace: "<img style='display:inline;' alt='' src='$|$' width=18 height=18/>"
+ # Genesys Dice
+  - triggers: [";;p", ";;y", ";proficiency", ";yellow"]
+    force_clipboard: true
+    replace: "<img style='display:inline;' alt='Genesys proficiency die' src='https://imgur.com/Q2aDZ0c.png' width=18 height=18/>"
+  - triggers: [";;c", ";;r", ";challenge", ";red"]
+    force_clipboard: true
+    replace: "<img style='display:inline;' alt='Genesys challenge die' src='https://imgur.com/vzj3om2.png' width=18 height=18/>"
+  - triggers: [";;a", ";;g", ";ability", ";green"]
+    force_clipboard: true
+    replace: "<img style='display:inline;' alt='Genesys ability die' src='https://imgur.com/jMlbMv0.png' width=18 height=18/>"
+  - triggers: [";;d", ";;p", ";difficulty", ";purple"]
+    force_clipboard: true
+    replace: "<img style='display:inline;' alt='Genesys difficulty die' src='https://imgur.com/KV7P7ro.png' width=18 height=18/>"
+  - triggers: [";;b", ";boost", ";blue"]
+    force_clipboard: true
+    replace: "<img style='display:inline;' alt='Genesys boost die' src='https://imgur.com/EdCUYmV.png' width=18 height=18/>"
+  - triggers: [";;s", ";;k", ";setback", ";black"]
+    force_clipboard: true
+    replace: "<img style='display:inline;' alt='Genesys setback die' src='https://imgur.com/rfDiY0r.png' width=18 height=18/>"
+  - trigger: ";success"
+    force_clipboard: true
+    replace: "<img style='display:inline;' alt='Genesys success' src='https://imgur.com/39cFBl8.png' width=18 height=18/>"
+  - trigger: ";failure"
+    force_clipboard: true
+    replace: "<img style='display:inline;' alt='Genesys failure' src='https://imgur.com/FoPRYIR.png' width=18 height=18/>"
+  - trigger: ";advantage"
+    force_clipboard: true
+    replace: "<img style='display:inline;' alt='Genesys advantage' src='https://imgur.com/IUPhPVY.png' width=18 height=18/>"
+  - trigger: ";threat"
+    force_clipboard: true
+    replace: "<img style='display:inline;' alt='Genesys threat' src='https://imgur.com/PdP0ZMk.png' width=18 height=18/>"
+  - trigger: ";triumph"
+    force_clipboard: true
+    replace: "<img style='display:inline;' alt='Genesys triumph' src='https://imgur.com/TSmRSZY.png' width=18 height=18/>"
+  - trigger: ";despair"
+    force_clipboard: true
+    replace: "<img style='display:inline;' alt='Genesys despair' src='https://imgur.com/TSmRSZY.png' width=18 height=18/>"

@@ -1,0 +1,28 @@
+name: symbols
+parent: default
+
+matches:
+  - trigger: ":up"
+    replace: "↑"
+  - trigger: ":down"
+    replace: "↓"
+  - trigger: ":right"
+    replace: "→"
+  - trigger: ":left"
+    replace: "←"
+  - trigger: ":longdash"
+    replace: "—"
+  - trigger: "..."
+    replace: "…"
+  - trigger: ":therefore"
+    replace: "∴"
+  - trigger: ":deg"
+    replace: "°"
+  - trigger: ":pi"
+    replace: "π"
+  - triggers: [":intbang", ":interrobang", "?!", "!?"]
+    replace: "‽"
+  - trigger: ":times"
+    replace: "×"
+  - triggers: ["~==", ":approximatelyequal", ":aproxequal"]
+    replace: "≈"

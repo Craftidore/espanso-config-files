@@ -1,0 +1,10 @@
+name: machmotion
+parent: default
+
+matches:
+  - trigger: "carlintro"
+    force_clipboard: true
+    replace: "I see that we both work in the machining industry and wanted to take a moment to connect with you as it may be mutually beneficial down the line.  Carl Eldredge, COO MachMotion"
+  - trigger: "carlresponse"
+    force_clipboard: true
+    replace: "Thank you for accepting my LinkedIn request.  At MachMotion, we upgrade controls for mills, routers, lathes, grinders. I just wanted to make a connection in case there is a way to help each other out in the future as leaders in the machining industry. Carl Eldredge, COO MachMotion"
