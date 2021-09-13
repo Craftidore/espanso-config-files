@@ -52,6 +52,12 @@ matches:
     vars:
       - name: "clipboard"
         type: "clipboard"
+  - trigger: ":iframe"
+    force_clipboard: true
+    replace: "<iframe src='{{clipboard}}'></iframe>"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
   - triggers: [":link", ":[]", ":mdlink"]
     force_clipboard: true
     replace: "[$|$]({{clipboard}})"
