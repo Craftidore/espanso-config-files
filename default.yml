@@ -57,7 +57,17 @@ matches:
     replace: "<iframe src='{{clipboard}}'></iframe>"
     vars:
       - name: "clipboard"
-        type: "clipboard"
+        type: "clipboard" 
+  - trigger: ":youtube"
+    force_clipboard: true
+    replace: "{{youtube}}"
+    vars:
+      - name: "youtube"
+        type: script
+        params:
+            args:
+              - py
+              - "%CONFIG%/scripts/youtube.py"
   - triggers: [":link", ":[]", ":mdlink"]
     force_clipboard: true
     replace: "[$|$]({{clipboard}})"
