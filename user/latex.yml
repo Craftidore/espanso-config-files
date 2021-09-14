@@ -6,3 +6,5 @@ matches:
     replace: "\\frac{$|$}{}"
   - trigger: "]align"
     replace: "\\begin{align}\n$|$\n\\end{align}"
+  - trigger: "]t"
+    replace: "\\text{$|$}"
