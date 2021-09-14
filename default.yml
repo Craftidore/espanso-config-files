@@ -54,7 +54,7 @@ matches:
         type: "clipboard"
   - trigger: ":iframe"
     force_clipboard: true
-    replace: "<iframe src='{{clipboard}}'></iframe>"
+    replace: "<iframe src='{{clipboard}}' width='700' height='500'></iframe>"
     vars:
       - name: "clipboard"
         type: "clipboard" 
@@ -74,13 +74,18 @@ matches:
     vars:
       - name: "clipboard"
         type: "clipboard"
-  - triggers: [":mdimage", ":![]", ":image"]
+  - triggers: [":image"]
+    force_clipboard: true
+    replace: "![|700]({{clipboard}})"
+    vars:
+      - name: "clipboard"
+        type: clipboard
+  - triggers: [":mdimage", ":![]",]
     force_clipboard: true
     replace: "![]({{clipboard}})"
     vars:
       - name: "clipboard"
         type: clipboard
- 
  # Craftidore's things
 
   - trigger: ":quote"
