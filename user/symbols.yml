@@ -20,6 +20,8 @@ matches:
     replace: "°"
   - trigger: ":pi"
     replace: "π"
+  - trigger: ":micro"
+    replace: "µ"
   - triggers: [":intbang", ":interrobang", "?!", "!?"]
     replace: "‽"
   - trigger: ":times"
