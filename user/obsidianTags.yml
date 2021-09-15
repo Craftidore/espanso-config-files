@@ -32,7 +32,7 @@ matches:
   - trigger: timeagencytags
     replace: "tags: writing/booksByElliot timeAgency/worldbuilding"
   - trigger: writingnotestags
-    replace: "tags: writing/tipsAndTools"\
+    replace: "tags: writing/tipsAndTools"
   - trigger: BSwritinglecturestags
     replace: "tags: writing/tipsAndTools brandonSanderson/writingLectures/Lecture #"
  # short stories
