@@ -1,0 +1,51 @@
+name: obsidianTags
+parent: default
+
+# Note: use this for default tags from folders
+# Move some tags to the #archive area as needed. 
+matches:
+# General Notes tags
+ # church tags
+  - trigger: churchtags
+    replace: "tags: sermon fellowship"
+  - trigger: FSMtags
+    replace: "tags: sermon fellowship/studentMinistries"
+ # Misc
+  - trigger: classicalstufftags
+    replace: "tags: classicalStuff"
+  - trigger: diplomacytags
+    replace: "tags: diplomacy"
+ # current school tags
+  - trigger: modernitytags
+    replace: "tags: modernity history highschool/senior"
+  - trigger: datasciencetags
+    replace: "tags: CAHA/dataScience highschool/senior"
+  - trigger: physicstags
+    replace: "tags: CAHA/physics science math highschool/senior"
+  - trigger: univwritingtags
+    replace: "tags: college/harding/introUnivResearchWriting english highschool/senior "
+ # calendar tags (done through the template)
+
+ # writing tags
+  - trigger: onfairywingstags
+    replace: "tags: writing/booksByOthers kathrynIsrael onFairyWings"
+  - trigger: timeagencytags
+    replace: "tags: writing/booksByElliot timeAgency/worldbuilding"
+  - trigger: writingnotestags
+    replace: "tags: writing/tipsAndTools"\
+  - trigger: BSwritinglecturestags
+    replace: "tags: writing/tipsAndTools brandonSanderson/writingLectures/Lecture #"
+ # short stories
+  - trigger: shortstorytags
+    replace: "tags: writing/booksByElliot/shortStories/shortStoryName"
+  - trigger: takeovertags
+    replace: "tags: writing/booksByElliot/shortStories/takeover/"
+# RPG Notes tags
+
+
+ # ARCHIVE
+  - trigger: sabotagetagsarchive # Sabotage short story tags (tag archived because the short story was completed)
+    replace: "tags: writing/booksByElliot/shortStories/sabotage/"
+  - trigger: MICEquotienttags
+    replace: "tags: writing/tipsAndTools MICE" # Tags for notes about the MICE Quotient (see obsidian://open?vault=General%20Notes&file=Folders%2FWriting%2FWriting%20Notes%2FMICE%20Quotient%2FMICE%20Quotient)
+    
