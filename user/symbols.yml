@@ -22,6 +22,8 @@ matches:
     replace: "π"
   - trigger: ":micro"
     replace: "µ"
+  - trigger: ":delta"
+    replace: "Δ"
   - triggers: [":intbang", ":interrobang", "?!", "!?"]
     replace: "‽"
   - trigger: ":times"
