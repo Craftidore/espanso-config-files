@@ -88,7 +88,7 @@ matches:
         type: clipboard
  # Craftidore's things
   - trigger: "courserapath"
-    replace: "C:\Users\ellio\OneDrive\Documents\non setting derived folders\Senior Year of High School\HTML, CSS, and Javascript"
+    replace: "C:\\Users\\ellio\\OneDrive\\Documents\\non setting derived folders\\Senior Year of High School\\HTML, CSS, and Javascript"
   - trigger: ":quote"
     force_clipboard: true
     form: |
