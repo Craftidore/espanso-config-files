@@ -24,6 +24,8 @@ matches:
     replace: "tags: CAHA/physics science math highschool/senior"
   - trigger: univwritingtags
     replace: "tags: college/harding/introUnivResearchWriting english highschool/senior "
+  - trigger: courserahcjtags
+    replace: "tags: coursera/htmlcssjavascript highschool/senior webDevelopment"
  # calendar tags (done through the template)
 
  # writing tags
