@@ -93,7 +93,7 @@ matches:
     force_clipboard: true
     form: |
       > "$|$"
-      > => {{name}}
+      > <cite>{{name}}</cite>
       > 
     form_fields:
       text:
