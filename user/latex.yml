@@ -8,3 +8,9 @@ matches:
     replace: "\\begin{align}\n$|$\n\\end{align}"
   - trigger: "]t"
     replace: "\\text{$|$}"
+  - trigger: "unitfrac"
+    force_clipboard: true
+    form: "\\frac{{{input}}}{{{input2}}}"
+    form_fields:
+      text:
+        multiline: true
