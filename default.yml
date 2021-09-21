@@ -43,6 +43,10 @@ matches:
         params:
           format: "%H:%M"
  # Code
+  - trigger: ":red"
+    replace: "<span style=\"color:red\">$|$</span>"
+  - trigger: ":green"
+    replace: "<span style=\"color:green\">$|$</span>"
   - trigger: ":div"
     force_clipboard: true
     replace: "<div>$|$</div>"
