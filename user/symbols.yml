@@ -30,5 +30,7 @@ matches:
     replace: "‽"
   - trigger: ":times"
     replace: "×"
+  - triggers: ["plusminus", ":plusorminus", "+-"]
+    replace: "±"
   - triggers: ["~==", ":approximatelyequal", ":aproxequal"]
     replace: "≈"
