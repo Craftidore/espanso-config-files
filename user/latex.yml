@@ -11,6 +11,3 @@ matches:
   - trigger: "unitfrac"
     force_clipboard: true
     form: "\\frac{\\text{{{input}}}}{\\text{{{input2}}}}"
-    form_fields:
-      text:
-        multiline: true
