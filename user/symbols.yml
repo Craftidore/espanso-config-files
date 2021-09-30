@@ -24,6 +24,8 @@ matches:
     replace: "µ"
   - trigger: ":delta"
     replace: "Δ"
+  - triggers: [":sigma", ":sum"]
+    replace: "Σ"
   - triggers: [":lsigma", ":standarddeviation"]
     replace: "σ"
   - triggers: [":intbang", ":interrobang", "?!", "!?"]
