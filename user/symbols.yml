@@ -10,6 +10,8 @@ matches:
     replace: "→"
   - trigger: ":left"
     replace: "←"
+  - triggers: [":bigleftright", "<=>"]
+    replace: "⇔"
   - trigger: ":longdash"
     replace: "—"
   - trigger: "..."
