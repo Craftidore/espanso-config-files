@@ -26,6 +26,8 @@ matches:
     replace: "µ"
   - trigger: ":delta"
     replace: "Δ"
+  - trigger: ":theta"
+    replace: "θ"
   - triggers: [":sigma", ":sum"]
     replace: "Σ"
   - triggers: [":lsigma", ":standarddeviation"]
