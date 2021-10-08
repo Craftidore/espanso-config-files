@@ -18,6 +18,8 @@ matches:
     replace: "…"
   - trigger: ":therefore"
     replace: "∴"
+  - trigger: ":copyright"
+    replace: "©"
   - trigger: ":deg"
     replace: "°"
   - trigger: ":pi"
