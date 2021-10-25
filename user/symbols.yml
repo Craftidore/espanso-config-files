@@ -2,43 +2,45 @@ name: symbols
 parent: default
 
 matches:
-  - trigger: ":up"
+  - trigger: ":up:"
     replace: "↑"
-  - trigger: ":down"
+  - trigger: ":down:"
     replace: "↓"
-  - trigger: ":right"
+  - trigger: ":right:"
     replace: "→"
-  - trigger: ":left"
+  - trigger: ":left:"
     replace: "←"
-  - triggers: [":bigleftright", "<=>"]
+  - triggers: [":bigleftright:", "<=>"]
     replace: "⇔"
-  - trigger: ":longdash"
+  - triggers: [":longdash:", ":emdash:"]
     replace: "—"
-  - trigger: "..."
+  - triggers: [":elipsis:", "..."]
     replace: "…"
-  - trigger: ":therefore"
+  - trigger: ":therefore:"
     replace: "∴"
-  - trigger: ":copyright"
+  - trigger: ":copyright:"
     replace: "©"
-  - trigger: ":deg"
+  - trigger: ":deg:"
     replace: "°"
-  - trigger: ":pi"
+  - trigger: ":pi:"
     replace: "π"
-  - trigger: ":micro"
+  - trigger: ":micro:"
     replace: "µ"
-  - trigger: ":delta"
+  - trigger: ":delta:"
     replace: "Δ"
-  - trigger: ":theta"
+  - trigger: ":ltheta:"
     replace: "θ"
-  - triggers: [":sigma", ":sum"]
+  - triggers: [":sigma:", ":sum:"]
     replace: "Σ"
-  - triggers: [":lsigma", ":standarddeviation"]
+  - trigger: ":lomega:"
+    replace: "ω"
+  - triggers: [":lsigma:", ":standarddeviation:"]
     replace: "σ"
-  - triggers: [":intbang", ":interrobang", "?!", "!?"]
+  - triggers: [":intbang:", ":interrobang:", "?!", "!?"]
     replace: "‽"
-  - trigger: ":times"
+  - trigger: ":times:"
     replace: "×"
-  - triggers: ["plusminus", ":plusorminus", "+-"]
+  - triggers: ["plusminus", ":plusorminus:", "+-"]
     replace: "±"
-  - triggers: ["~==", ":approximatelyequal", ":aproxequal"]
+  - triggers: ["~==", ":approximatelyequal:", ":aproxequal:"]
     replace: "≈"
