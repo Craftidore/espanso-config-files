@@ -15,8 +15,8 @@ matches:
  # Case Fixes
   - triggers: ["fathers day", "Fathers day"]
     replace: "Father's Day"
-  - trigger: "asia"
-    replace: "Asia"
+  - trigger: " asia"
+    replace: " Asia"
   - trigger: "bible"
     replace: "Bible"
     word: true
