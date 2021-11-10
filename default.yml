@@ -16,7 +16,7 @@ matches:
   - trigger: "espansopackages"
     replace: "C:\\Users\\ellio\\AppData\\Local\\espanso\\packages"
   - trigger: "\\\\can" #Trigger is "\\can" as the \ is an escape character in this context. Used to cancel espanso expansion of a trigger.
-    replace: ""
+    replace: "$|$"
 
 
  # Dates
