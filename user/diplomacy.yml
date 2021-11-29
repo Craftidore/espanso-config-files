@@ -90,3 +90,28 @@ matches:
   - trigger: "byeanonturkey"
     force_clipboard: true
     replace: "Sincerely, \nThe Grand Sultan of Turkey"
+  # Nexus Diplomacy GMing
+  - trigger: "GMrapid"
+    force_clipboard: true
+    replace: "End Date: Winter 1912 // @ or DM Craftidore for assistance"
+  - trigger: "GMstandard"
+    force_clipboard: true
+    replace: "End Date: Winter 1920 // @ or DM Craftidore for assistance"
+  - trigger: "GMunlimited"
+    force_clipboard: true
+    replace: "End Date: None // @ or DM Craftidore for assistance"
+  - trigger: "GMpress"
+    force_clipboard: true
+    replace: "End Date: 1912 // @ or DM Craftidore for assistance"
+  - trigger: "GBGame"
+    replace: "Nexus GB League Game $|$"
+  - trigger: "PressGame"
+    replace: "Nexus Press League: G$|$"
+  - trigger: "GBGrace"
+    replace: "Hey, looks like you triggered grace in Nexus GB League Game $|$."
+  - trigger: "PressGrace"
+    replace: "Hey, looks like you triggered grace in Nexus Press League: G$|$."
+  - trigger: "GBJoin"
+    replace: "Hey, we're still waiting for you to join Nexus GB League Game $|$."
+  - trigger: "PressJoin"
+    replace: "Hey, we're still waiting for you to join Nexus Press League: G$|$."
