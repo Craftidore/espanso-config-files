@@ -102,7 +102,7 @@ matches:
     replace: "End Date: None // @ or DM Craftidore for assistance"
   - trigger: "GMpress"
     force_clipboard: true
-    replace: "End Date: 1912 // @ or DM Craftidore for assistance"
+    replace: "End Date: 1910 // @ or DM Craftidore for assistance"
   - trigger: "GBGame"
     replace: "Nexus GB League Game $|$"
   - trigger: "PressGame"
