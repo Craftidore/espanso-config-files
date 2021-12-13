@@ -44,3 +44,13 @@ matches:
     replace: "±"
   - triggers: ["~==", ":approximatelyequal:", ":aproxequal:"]
     replace: "≈"
+  - triggers: [":footnote:", ":ftnt:", ":footnote1:", ":ftnt1:", ":dagger:"]
+    replace: "†"
+  - triggers: [":ftnt2:", ":footnote2:", ":doubledagger:"]
+    replace: "‡"
+  - triggers: [":ftnt3:", ":footnote3:", ":section:"]
+    replace: "§"
+  - triggers: [":ftnt4:", ":footnote4:", ":doubleverticleline:"]
+    replace: "‖"
+  - triggers: [":ftnt5:", ":footnote5:", ":pilcrow:", ":paragraph:", ":paraph:", ":blindp:"]
+    replace: "¶"
