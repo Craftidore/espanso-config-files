@@ -1,0 +1,8 @@
+name: obsidianShortcuts
+parent: default
+
+match: 
+  - trigger: ":sup:"
+    replace: "<sup>$|$</sup>"
+  - trigger: ":sub:"
+    replace: "<sub>$|$</sub>"
