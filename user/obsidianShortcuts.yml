@@ -6,3 +6,5 @@ matches:
     replace: "<sup>$|$</sup>"
   - trigger: ":sub:"
     replace: "<sub>$|$</sub>"
+  - trigger: "testslashcommand"
+    replace: "/openquickswitcher\n"

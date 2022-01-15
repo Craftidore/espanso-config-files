@@ -44,6 +44,9 @@ matches:
         type: date
         params:
           format: "%H:%M"
+ # Discord
+  - trigger: "archivemsg"
+    replace: "```yml\n---\nThis channel has been archived\n---\n```\n"
  # Code
   - trigger: ":red:"
     replace: "<span style=\"color:red\">$|$</span>"
