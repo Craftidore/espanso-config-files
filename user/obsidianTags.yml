@@ -12,4 +12,4 @@ matches:
       - name: mytime
         type: date
         params:
-          format: "%y:%W"
+          format: "%y/%W"
