@@ -44,6 +44,9 @@ matches:
         type: date
         params:
           format: "%H:%M"
+ # Discord
+  - trigger: "archivemsg"
+    replace: "```yml\n---\nThis channel has been archived\n---\n```\n"
  # Code
   - trigger: ":red:"
     replace: "<span style=\"color:red\">$|$</span>"
@@ -82,7 +85,7 @@ matches:
         type: "clipboard"
   - triggers: [":image:"]
     force_clipboard: true
-    replace: "![|700]({{clipboard}})"
+    replace: "![|500]({{clipboard}})"
     vars:
       - name: "clipboard"
         type: clipboard
