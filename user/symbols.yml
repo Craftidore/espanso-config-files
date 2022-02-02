@@ -20,6 +20,8 @@ matches:
     replace: "∴"
   - trigger: ":copyright:"
     replace: "©"
+  - trigger: ":cent:"
+    replace: "¢"
   - trigger: ":deg:"
     replace: "°"
   - trigger: ":pi:"
