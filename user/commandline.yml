@@ -1,0 +1,9 @@
+name: commandline
+parent: default
+
+matches:
+  - trigger: "--bsync-- "
+    replace: "browser-sync start --server --directory --files \"**/*\"$|$"
+  - trigger: "--sr-- "
+    replace: "cd source/repos/$|$"
+

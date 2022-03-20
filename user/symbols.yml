@@ -26,6 +26,8 @@ matches:
     replace: "°"
   - trigger: ":pi:"
     replace: "π"
+  - trigger: ":tau:"
+    replace: "𝜏"
   - trigger: ":micro:"
     replace: "µ"
   - trigger: ":delta:"
