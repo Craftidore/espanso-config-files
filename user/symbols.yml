@@ -44,6 +44,8 @@ matches:
     replace: "×"
   - triggers: ["plusminus", ":plusorminus:", "+-"]
     replace: "±"
+  - triggers: ["notequal", ":!=:"] # Have to use :!=: instead of just != because sometimes != is used in coding
+    replace: "≠"
   - triggers: ["~==", ":approximatelyequal:", ":aproxequal:"]
     replace: "≈"
   - triggers: [":footnote:", ":ftnt:", ":footnote1:", ":ftnt1:", ":dagger:"]
