@@ -18,10 +18,8 @@ matches:
   - trigger: "\\\\can" #Trigger is "\\can" as the \ is an escape character in this context. Used to cancel espanso expansion of a trigger.
     replace: "$|$"
 
-
  # Dates
   - trigger: ":date:"
-    force_clipboard: true
     replace: "{{mydate}}"
     vars:
       - name: mydate
@@ -29,7 +27,6 @@ matches:
         params:
           format: "%y%m%d"
   - trigger: ":longdate:"
-    force_clipboard: true
     replace: "{{mydate}}"
     vars:
       - name: mydate
@@ -48,14 +45,7 @@ matches:
   - trigger: "archivemsg"
     replace: "```yml\n---\nThis channel has been archived\n---\n```\n"
  # Code
-  - trigger: ":red:"
-    replace: "<span style=\"color:red\">$|$</span>"
-  - trigger: ":green"
-    replace: "<span style=\"color:green\">$|$</span>"
-  - trigger: ":div"
-    force_clipboard: true
-    replace: "<div>$|$</div>"
-  - trigger: ":href"
+  - trigger: ":href:"
     force_clipboard: true
     replace: "<a href='{{clipboard}}'>$|$</a>"
     vars:
