@@ -60,3 +60,7 @@ matches:
     replace: "‖"
   - triggers: [":ftnt5:", ":footnote5:", ":pilcrow:", ":paragraph:", ":paraph:", ":blindp:"]
     replace: "¶"
+  - triggers: [":progbar:", ":block:"]
+    replace: "█"
+  - trigger: ":noprogbar:"
+    replace: "▒"
