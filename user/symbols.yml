@@ -42,6 +42,8 @@ matches:
     replace: "σ"
   - triggers: [":intbang:", ":interrobang:", "?!", "!?"]
     replace: "‽"
+  - triggers: [":fwqm:"]
+    replace: "？"
   - trigger: ":times:"
     replace: "×"
   - triggers: ["plusminus", ":plusorminus:", "+-"]

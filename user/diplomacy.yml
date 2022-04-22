@@ -4,104 +4,72 @@ parent: default
 matches:
 # Salutations
   - trigger: "hiaustria"
-    force_clipboard: true
     replace: "Salutations Emperor of Austria and King of Hungary,\n"
   - trigger: "hiengland"
-    force_clipboard: true
     replace: "Salutations Prime Minister of England,\n"
   - trigger: "hifrance"
-    force_clipboard: true
     replace: "Salutations President of the French Republic,\n"
   - trigger: "higermany"
-    force_clipboard: true
     replace: "Salutations Kaiser of Germany and King of Prussia,\n"
   - trigger: "hiitaly"
-    force_clipboard: true
     replace: "Salutations Il Duce of Italy,\n"
   - trigger: "hirussia"
-    force_clipboard: true
     replace: "Salutations Vozhd of Russia,\n"
   - trigger: "hiturkey"
-    force_clipboard: true
     replace: "Salutations Grand Sultan of Turkey,\n"
  # Personal Salutations
   - trigger: "hipersaustria"
-    force_clipboard: true
     replace: "Salutations Emperor $|$ of Austria and King of Hungary,\n"
   - trigger: "hipersengland"
-    force_clipboard: true
     replace: "Salutations Prime Minister $|$ of England,\n"
   - trigger: "hipersfrance"
-    force_clipboard: true
     replace: "Salutations President $|$ of the French Republic,\n"
   - trigger: "hipersgermany"
-    force_clipboard: true
     replace: "Salutations Kaiser $|$ of Germany and King of Prussia,\n"
   - trigger: "hipersitaly"
-    force_clipboard: true
     replace: "Salutations Il Duce $|$ of Italy,\n"
   - trigger: "hipersrussia"
-    force_clipboard: true
     replace: "Salutations Vozhd $|$ of Russia,\n"
   - trigger: "hipersturkey"
-    force_clipboard: true
     replace: "Salutations Grand Sultan $|$ of Turkey,\n"
  # Sincerely Craftidore
   - trigger: "byeaustria"
-    force_clipboard: true
     replace: "Sincerely, \nEmperor Craftidore of Austria"
   - trigger: "byeengland"
-    force_clipboard: true
     replace: "Sincerely, \nPrime Minister Craftidore of England"
   - trigger: "byefrance"
-    force_clipboard: true
     replace: "Sincerely, \nPresident Craftidore of the French Republic"
   - trigger: "byegermany"
-    force_clipboard: true
     replace: "Sincerely, \nKaiser Craftidore of Germany"
   - trigger: "byeitaly"
-    force_clipboard: true
     replace: "Sincerely, \nIl Duce Craftidore of Italy"
   - trigger: "byerussia"
-    force_clipboard: true
     replace: "Sincerely, \nVozhd Craftidore of Russia"
   - trigger: "byeturkey"
-    force_clipboard: true
     replace: "Sincerely, \nGrand Sultan Craftidore of Turkey"
  # Sincerely Anon
   - trigger: "byeanonaustria"
-    force_clipboard: true
     replace: "Sincerely, \nThe Emperor of Austria"
   - trigger: "byeanonengland"
-    force_clipboard: true
     replace: "Sincerely, \nThe Prime Minister of England"
   - trigger: "byeanonfrance"
-    force_clipboard: true
     replace: "Sincerely, \nThe President of the French Republic"
   - trigger: "byeanongermany"
-    force_clipboard: true
     replace: "Sincerely, \nThe Kaiser of Germany"
   - trigger: "byeanonitaly"
-    force_clipboard: true
     replace: "Sincerely, \nThe Il Duce of Italy"
   - trigger: "byeanonrussia"
-    force_clipboard: true
     replace: "Sincerely, \nThe Vozhd of Russia"
   - trigger: "byeanonturkey"
-    force_clipboard: true
     replace: "Sincerely, \nThe Grand Sultan of Turkey"
   # Nexus Diplomacy GMing
   - trigger: "GMrapid"
-    force_clipboard: true
     replace: "End Date: Winter 1912 // @ or DM Craftidore for assistance"
   - trigger: "GMstandard"
-    force_clipboard: true
     replace: "End Date: Winter 1920 // @ or DM Craftidore for assistance"
   - trigger: "GMunlimited"
-    force_clipboard: true
     replace: "End Date: None // @ or DM Craftidore for assistance"
   - trigger: "GMpress"
-    force_clipboard: true
     replace: "End Date: 1910 // @ or DM Craftidore for assistance"
   - trigger: "GBGame"
     replace: "Nexus GB League Game $|$"

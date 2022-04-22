@@ -46,19 +46,16 @@ matches:
     replace: "```yml\n---\nThis channel has been archived\n---\n```\n"
  # Code
   - trigger: ":href:"
-    force_clipboard: true
     replace: "<a href='{{clipboard}}'>$|$</a>"
     vars:
       - name: "clipboard"
         type: "clipboard"
   - trigger: ":iframe:"
-    force_clipboard: true
     replace: "<iframe src='{{clipboard}}' width='700' height='500'></iframe>"
     vars:
       - name: "clipboard"
         type: "clipboard" 
   - trigger: ":youtube:"
-    force_clipboard: true
     replace: "{{youtube}}"
     vars:
       - name: "youtube"
@@ -68,19 +65,16 @@ matches:
               - py
               - "%CONFIG%/scripts/youtube.py"
   - triggers: [":link:", ":[]:", ":mdlink:"]
-    force_clipboard: true
     replace: "[$|$]({{clipboard}})"
     vars:
       - name: "clipboard"
         type: "clipboard"
   - triggers: [":image:"]
-    force_clipboard: true
     replace: "![|500]({{clipboard}})"
     vars:
       - name: "clipboard"
         type: clipboard
   - triggers: [":mdimage:", ":![]:",]
-    force_clipboard: true
     replace: "![]({{clipboard}})"
     vars:
       - name: "clipboard"
@@ -89,7 +83,6 @@ matches:
   - trigger: "courserapath"
     replace: "C:\\Users\\ellio\\OneDrive\\Documents\\non setting derived folders\\Senior Year of High School\\HTML, CSS, and Javascript\\craftidores-test-website"
   - trigger: ":quote:"
-    force_clipboard: true
     form: |
       > "$|$"
       > <cite>{{name}}</cite>
@@ -98,5 +91,4 @@ matches:
       text:
         multiline: true
   - trigger: "hehim"
-    force_clipboard: true
     replace: "(he/him)"
