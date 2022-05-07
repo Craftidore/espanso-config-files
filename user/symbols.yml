@@ -20,6 +20,10 @@ matches:
     replace: "∴"
   - trigger: ":copyright:"
     replace: "©"
+  - trigger: ":tm:"
+    replace: "™"
+  - triggers: [":r:", ":R:"]
+    replace: "®"
   - trigger: ":cent:"
     replace: "¢"
   - trigger: ":deg:"
@@ -41,6 +45,7 @@ matches:
   - triggers: [":lsigma:", ":standarddeviation:"]
     replace: "σ"
   - triggers: [":intbang:", ":interrobang:", "?!", "!?"]
+    word: true
     replace: "‽"
   - triggers: [":fwqm:"]
     replace: "？"
