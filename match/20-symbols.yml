@@ -1,70 +1,70 @@
 matches:
-  - trigger: ":up:"
+  - trigger: ";;up;"
     replace: "↑"
-  - trigger: ":down:"
+  - trigger: ";;down;"
     replace: "↓"
-  - trigger: ":right:"
+  - trigger: ";;right;"
     replace: "→"
-  - trigger: ":left:"
+  - trigger: ";;left;"
     replace: "←"
-  - triggers: [":bigleftright:", "<=>"]
+  - triggers: [";;bigleftright;", "<=>"]
     replace: "⇔"
-  - triggers: [":longdash:", ":emdash:"]
+  - triggers: [";;longdash;", ";;emdash;"]
     replace: "—"
-  - triggers: [":elipsis:", "..."]
+  - triggers: [";;elipsis;", "..."]
     replace: "…"
-  - trigger: ":therefore:"
+  - trigger: ";;therefore;"
     replace: "∴"
-  - trigger: ":copyright:"
+  - trigger: ";;copyright;"
     replace: "©"
-  - trigger: ":tm:"
+  - trigger: ";;tm;"
     replace: "™"
-  - triggers: [":r:", ":R:"]
+  - triggers: [";;r;", ";;R;"]
     replace: "®"
-  - trigger: ":cent:"
+  - trigger: ";;cent;"
     replace: "¢"
-  - trigger: ":deg:"
+  - trigger: ";;deg;"
     replace: "°"
-  - trigger: ":pi:"
+  - trigger: ";;pi;"
     replace: "π"
-  - trigger: ":tau:"
+  - trigger: ";;tau;"
     replace: "𝜏"
-  - trigger: ":micro:"
+  - trigger: ";;micro;"
     replace: "µ"
-  - trigger: ":delta:"
+  - trigger: ";;delta;"
     replace: "Δ"
-  - trigger: ":ltheta:"
+  - trigger: ";;ltheta;"
     replace: "θ"
-  - triggers: [":sigma:", ":sum:"]
+  - triggers: [";;sigma;", ";;sum;"]
     replace: "Σ"
-  - trigger: ":lomega:"
+  - trigger: ";;lomega;"
     replace: "ω"
-  - triggers: [":lsigma:", ":standarddeviation:"]
+  - triggers: [";;lsigma;", ";;standarddeviation;"]
     replace: "σ"
-  - triggers: [":intbang:", ":interrobang:", "?!", "!?"]
+  - triggers: [";;intbang;", ";;interrobang;", "?!", "!?"]
     word: true
     replace: "‽"
-  - triggers: [":fwqm:"]
+  - triggers: [";;fwqm;"]
     replace: "？"
-  - trigger: ":times:"
+  - trigger: ";;times;"
     replace: "×"
-  - triggers: ["plusminus", ":plusorminus:", "+-"]
+  - triggers: ["plusminus", ";;plusorminus;", "+-"]
     replace: "±"
-  - triggers: ["notequal", ":!=:"] # Have to use :!=: instead of just != because sometimes != is used in coding
+  - triggers: ["notequal", ";;!=;"] # Have to use :!=: instead of just != because sometimes != is used in coding
     replace: "≠"
-  - triggers: ["~==", ":approximatelyequal:", ":aproxequal:"]
+  - triggers: ["~==", ";;approximatelyequal;", ";;aproxequal;"]
     replace: "≈"
-  - triggers: [":footnote:", ":ftnt:", ":footnote1:", ":ftnt1:", ":dagger:"]
+  - triggers: [";;footnote;", ";;ftnt;", ";;footnote1;", ";;ftnt1;", ";;dagger;"]
     replace: "†"
-  - triggers: [":ftnt2:", ":footnote2:", ":doubledagger:"]
+  - triggers: [";;ftnt2;", ";;footnote2;", ";;doubledagger;"]
     replace: "‡"
-  - triggers: [":ftnt3:", ":footnote3:", ":section:"]
+  - triggers: [";;ftnt3;", ";;footnote3;", ";;section;"]
     replace: "§"
-  - triggers: [":ftnt4:", ":footnote4:", ":doubleverticleline:"]
+  - triggers: [";;ftnt4;", ";;footnote4;", ";;doubleverticleline;"]
     replace: "‖"
-  - triggers: [":ftnt5:", ":footnote5:", ":pilcrow:", ":paragraph:", ":paraph:", ":blindp:"]
+  - triggers: [";;ftnt5;", ";;footnote5;", ";;pilcrow;", ";;paragraph;", ";;paraph;", ";;blindp;"]
     replace: "¶"
-  - triggers: [":progbar:", ":block:"]
+  - triggers: [";;progbar;", ";;block;"]
     replace: "█"
-  - triggers: [":noprogbar:", ":fuzzyblock:"]
+  - triggers: [";;noprogbar;", ";;fuzzyblock;"]
     replace: "▒"
