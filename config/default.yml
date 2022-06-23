@@ -2,7 +2,6 @@
 
 # --- User
 
-EDITOR=/usr/bin/vim
 backspace_limit: 15
 search_trigger: ":search:"
 # Switches to slower-but-more-supported X11 thingy.

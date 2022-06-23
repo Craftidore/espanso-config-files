@@ -1,12 +1,4 @@
-# espanso configuration file
-
-# This is the default configuration file, change it as you like it
-# You can refer to the official documentation:
-# https://espanso.org/docs/
-
-# Matches are the substitution rules, when you type the "trigger" string
-# it gets replaced by the "replace" string.
-backspace_limit: 15
+# espanso match file
 matches:
   # Simple text replacement
   - trigger: ":espanso:"
@@ -48,21 +40,13 @@ matches:
   - trigger: ":href:"
     replace: "<a href='{{clipboard}}'>$|$</a>"
     vars:
-      - name: "clipboard" type: "clipboard"
+      - name: "clipboard"
+        type: "clipboard"
   - trigger: ":iframe:"
     replace: "<iframe src='{{clipboard}}' width='700' height='500'></iframe>"
     vars:
       - name: "clipboard"
         type: "clipboard" 
-  - trigger: ":youtube:"
-    replace: "{{youtube}}"
-    vars:
-      - name: "youtube"
-        type: script
-        params:
-            args:
-              - py
-              - "%CONFIG%/scripts/youtube.py"
   - triggers: [":link:", ":[]:", ":mdlink:"]
     replace: "[$|$]({{clipboard}})"
     vars:
@@ -79,8 +63,6 @@ matches:
       - name: "clipboard"
         type: clipboard
  # Craftidore's things
-  - trigger: "courserapath"
-    replace: "C:\\Users\\ellio\\OneDrive\\Documents\\non setting derived folders\\Senior Year of High School\\HTML, CSS, and Javascript\\craftidores-test-website"
   - trigger: ":quote:"
     form: |
       > "$|$"
@@ -90,4 +72,5 @@ matches:
       text:
         multiline: true
   - trigger: "hehim"
+    word: true
     replace: "(he/him)"
