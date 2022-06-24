@@ -8,7 +8,7 @@ search_trigger: ":search:"
 # disable_x11_fast_inject: false
 # Alternate clipboard to x. Already installed. Enable if clipboard 'gets stuck'.
 # x11_use_xclip_backend: false
-toggle_key: RIGHT_CTRL:w
+toggle_key: RIGHT_CTRL
 
 
 # --- Backend
