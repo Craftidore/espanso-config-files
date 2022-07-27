@@ -1,0 +1,8 @@
+matches: 
+  - trigger: "#wk "
+    replace: "#week/{{mytime}}"
+    vars:
+      - name: mytime
+        type: date
+        params:
+          format: "%y/%W"

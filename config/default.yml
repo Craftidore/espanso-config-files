@@ -1,0 +1,27 @@
+# espanso configuration file
+
+# --- User
+
+backspace_limit: 15
+search_trigger: ":search:"
+# Switches to slower-but-more-supported X11 thingy.
+# disable_x11_fast_inject: false
+# Alternate clipboard to x. Already installed. Enable if clipboard 'gets stuck'.
+# x11_use_xclip_backend: false
+toggle_key: RIGHT_CTRL
+
+
+# --- Backend
+
+# Espanso supports multiple ways of injecting text into applications. Each of
+# them has its quirks, therefore you may want to change it if you are having problems.
+# By default, espanso uses the "Auto" backend which should work well in most cases,
+# but you may want to try the "Clipboard" or "Inject" backend in case of issues.
+# backend: Clipboard
+
+# --- Clipboard threshold
+
+# Because injecting long texts char-by-char is a slow operation, espanso automatically
+# uses the clipboard if the text is longer than 'clipboard_threshold' characters.
+clipboard_threshold: 10
+

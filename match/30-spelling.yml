@@ -1,0 +1,40 @@
+matches: 
+
+  - triggers: ["maam", "ma'm"]
+    replace: "ma'am"
+    propagate_case: true
+    word: true
+  - trigger: ":EH"
+    replace: "Elliot Hodge"
+  - trigger: "phisics"
+    replace: "physics"
+    propagate_case: true
+ # Case Fixes
+  - triggers: ["fathers day", "Fathers day"]
+    replace: "Father's Day"
+  - trigger: " asia"
+    replace: " Asia"
+  - trigger: "bible"
+    replace: "Bible"
+    word: true
+  - trigger: "sunday"
+    replace: "Sunday"
+    word: true
+  - trigger: "monday"
+    replace: "Monday"
+    word: true
+  - trigger: "tuesday" 
+    replace: "Tuesday"
+    word: true
+  - trigger: "wednesday"
+    replace: "Wednesday"
+    word: true
+  - trigger: "thursday"
+    replace: "Thursday"
+    word: true
+  - trigger: "friday"
+    replace: "Friday"
+    word: true
+  - trigger: "saturday"
+    replace: "Saturday"
+    word: true

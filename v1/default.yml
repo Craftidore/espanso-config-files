@@ -48,8 +48,7 @@ matches:
   - trigger: ":href:"
     replace: "<a href='{{clipboard}}'>$|$</a>"
     vars:
-      - name: "clipboard"
-        type: "clipboard"
+      - name: "clipboard" type: "clipboard"
   - trigger: ":iframe:"
     replace: "<iframe src='{{clipboard}}' width='700' height='500'></iframe>"
     vars:
