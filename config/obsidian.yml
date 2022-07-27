@@ -1,4 +1,0 @@
-filter_exec: "bsidian"
-
-extra_includes:
-  - "../match/_40-obsidian.yml"
