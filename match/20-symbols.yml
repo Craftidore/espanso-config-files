@@ -72,3 +72,26 @@ matches:
     replace: "█"
   - triggers: [";;noprogbar;", ";;fuzzyblock;"]
     replace: "▒"
+  # Box related stuff
+  - triggers: [";;hl;"]
+    replace: "─"
+  - triggers: [";;jk;"]
+    replace: "│"
+  - triggers: [";;jl;"]
+    replace: "┌"
+  - triggers: [";;hj;"]
+    replace: "┐"
+  - triggers: [";;kl;"]
+    replace: "└"
+  - triggers: [";;hk;"]
+    replace: "┘"
+  - triggers: [";;jkl;"]
+    replace: "├"
+  - triggers: [";;hjk;"]
+    replace: "┤"
+  - triggers: [";;hjl;"]
+    replace: "┬"
+  - triggers: [";;hkl;"]
+    replace: "┴"
+  - triggers: [";;hjkl;"]
+    replace: "┼"
