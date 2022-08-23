@@ -68,3 +68,7 @@ matches:
     replace: "█"
   - triggers: [";;noprogbar;", ";;fuzzyblock;"]
     replace: "▒"
+  - triggers: [";;zwsp;", ";;zerowidthspace;"]
+    replace: "​"
+  - triggers: [";;nbsp;", ";;nobreakspace;"]
+    replace: " "
