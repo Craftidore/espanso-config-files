@@ -1,0 +1,6 @@
+# espanso match file
+matches:
+  - trigger: ";; ;"
+    replace: "{$|$}"
+  - trigger: ";;frac;"
+    replace: "\\frac{$|$}{}"
