@@ -95,3 +95,8 @@ matches:
     replace: "┴"
   - triggers: [";;hjkl;"]
     replace: "┼"
+  # space related stuff
+  - triggers: [";;zwsp;", ";;zerowidthspace;"]
+    replace: "​"
+  - triggers: [";;nbsp;", ";;nobreakspace;"]
+    replace: " "
