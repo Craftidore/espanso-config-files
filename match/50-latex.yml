@@ -1,6 +1,12 @@
 # espanso match file
 matches:
-  - trigger: ";; ;"
+  - triggers: [";; ;", ";;o;"]
     replace: "{$|$}"
-  - trigger: ";;frac;"
+  - trigger: ";;oalign;"
+    replace: "$$\n\\begin{align}\\n$|$\\n\\end{align}\\n$$"
+  - trigger: ";;ofrac;"
     replace: "\\frac{$|$}{}"
+  - trigger: ";;frac;"
+    replace: "\\frac{$|$}{<++>}"
+  - trigger: ";;oquad;"
+    replace: "$|$x = \\frac{-b \\pm \\sqrt {b^2 - 4ac}}{2a}"

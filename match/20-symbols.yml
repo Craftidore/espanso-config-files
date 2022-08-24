@@ -58,7 +58,7 @@ matches:
     replace: "≠"
   - triggers: ["~==", ";;approximatelyequal;", ";;aproxequal;"]
     replace: "≈"
-  - triggers: [";;footnote;", ";;ftnt;", ";;footnote1;", ";;ftnt1;", ";;dagger;"]
+  - triggers: [";;footnote;", ";;ftnt;", ";;footnote1;", ";;ftnt1;", ";;dagger;", ";;cross;"]
     replace: "†"
   - triggers: [";;ftnt2;", ";;footnote2;", ";;doubledagger;"]
     replace: "‡"
