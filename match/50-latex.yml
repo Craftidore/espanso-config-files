@@ -10,3 +10,5 @@ matches:
     replace: "\\frac{$|$}{<++>}"
   - trigger: ";;oquad;"
     replace: "$|$x = \\frac{-b \\pm \\sqrt {b^2 - 4ac}}{2a}"
+  - trigger: ";;quad;"
+    replace: "$|$<+x+> = \\frac{ - <+b+> \\pm \\sqrt {<+b^2+> - <+4ac+>} }{<+2a+>}"
