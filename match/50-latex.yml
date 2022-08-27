@@ -3,7 +3,7 @@ matches:
   - triggers: [";; ;", ";;o;"]
     replace: "{$|$}"
   - trigger: ";;oalign;"
-    replace: "$$\n\\begin{align}\\n$|$\\n\\end{align}\\n$$"
+    replace: "$$\n\\begin{align}\n$|$\n\\end{align}\n$$"
   - trigger: ";;ofrac;"
     replace: "\\frac{$|$}{}"
   - trigger: ";;frac;"
