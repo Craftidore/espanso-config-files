@@ -4,6 +4,8 @@ matches:
     replace: "{$|$}"
   - trigger: ";;oalign;"
     replace: "$$\n\\begin{align}\n$|$\n\\end{align}\n$$"
+  - trigger: ";;matrix;"
+    replace: "$$\\begin{matrix}\n\\end{matrix}$$"
   - trigger: ";;ofrac;"
     replace: "\\frac{$|$}{}"
   - trigger: ";;frac;"

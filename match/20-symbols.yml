@@ -11,7 +11,7 @@ matches:
     replace: "⇔"
   - triggers: [";;longdash;", ";;emdash;"]
     replace: "—"
-  - triggers: [";;elipsis;", "..."]
+  - triggers: [";;elipsis;"]
     replace: "…"
   - trigger: ";;therefore;"
     replace: "∴"
@@ -56,6 +56,10 @@ matches:
     replace: "±"
   - triggers: ["notequal", ";;!=;"] # Have to use :!=: instead of just != because sometimes != is used in coding
     replace: "≠"
+  - tiggers: [";;ge;", ";;greaterthanorequal;"]
+    replace: "≥"
+  - tiggers: [";;le;", ";;lessthanorequal;"]
+    replace: "≤"
   - triggers: ["~==", ";;approximatelyequal;", ";;aproxequal;"]
     replace: "≈"
   - triggers: [";;footnote;", ";;ftnt;", ";;footnote1;", ";;ftnt1;", ";;dagger;", ";;cross;"]
