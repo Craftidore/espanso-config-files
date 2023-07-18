@@ -14,7 +14,7 @@ matches:
       - name: mydate
         type: date
         params:
-          format: "%m/%d/%Y"
+          format: "%Y-%m-%d"
   - trigger: ";;now;"
     force_clipboard: true
     replace: "{{mytime}}"
